@@ -68,6 +68,9 @@ TEMPLATES = [
     },
 ]
 
+TEMPLATE_DIRS = (
+    BASE_DIR + '/blog/templates/',
+)
 WSGI_APPLICATION = 'mysite.wsgi.application'
 
 
